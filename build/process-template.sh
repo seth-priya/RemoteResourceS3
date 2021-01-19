@@ -16,7 +16,7 @@
 ################################################################################
 set -e
 
-sudo apt-get install -y gettext-base
+sudo apt-get install -yqq gettext-base
 
 FILE="${1}"
 THIS_DIR=$(dirname "${BASH_SOURCE[0]}")
